@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'lms.apps.LmsConfig',
 
     'rest_framework',
-    'django_filter'
+    'django_filters'
 
 
 ]
