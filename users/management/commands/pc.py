@@ -17,7 +17,7 @@ class Command(BaseCommand):
 
         payment2 = Payment.objects.create(
             date_of_payment=datetime.datetime.now().date(),
-            amount=150,
+            amount=150000,
             payment_type='cash',
             payed_lesson=Lesson.objects.get(pk=1),
         )
