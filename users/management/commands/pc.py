@@ -17,7 +17,7 @@ class Command(BaseCommand):
         payment1 = Payment.objects.create(
             payer=user1,
             date_of_payment=datetime.datetime.now().date(),
-            amount=775555,
+            amount=77555599,
             payment_type='cash',
 
         )
@@ -25,7 +25,7 @@ class Command(BaseCommand):
         payment2 = Payment.objects.create(
             payer=user2,
             date_of_payment=datetime.datetime.now().date(),
-            amount=887777,
+            amount=88777799,
             payment_type='cash',
 
         )
